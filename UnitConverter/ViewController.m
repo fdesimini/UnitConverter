@@ -33,4 +33,9 @@
     _resultLabel.text = resultString;
 }
 
+-(IBAction)textFieldReturn:(id)sender
+{
+    [sender resignFirstResponder];
+}
+
 @end

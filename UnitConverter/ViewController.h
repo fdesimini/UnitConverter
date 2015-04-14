@@ -12,7 +12,7 @@
 @property (strong, nonatomic) IBOutlet UITextField *tempText;
 @property (strong, nonatomic) IBOutlet UILabel *resultLabel;
 - (IBAction)convertTemp:(id)sender;
-
+- (IBAction)textFieldReturn:(id)sender;
 
 
 @end
